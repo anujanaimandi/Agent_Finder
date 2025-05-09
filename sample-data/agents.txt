@@ -7,6 +7,7 @@
     specialization: "Luxury Homes",
     rating: 4.8
   },
+
   Agent {
     id: 2,
     name: "Mike Johnson",
@@ -15,6 +16,7 @@
     specialization: "Commercial Properties",
     rating: 4.5
   },
+
   Agent {
     id: 3,
     name: "Sarah Williams",
