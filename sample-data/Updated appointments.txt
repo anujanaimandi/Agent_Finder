@@ -1,5 +1,5 @@
 [
-  {
+ Appointment {
     "id": 1,
     "clientId": 1,
     "agentId": 1,
@@ -8,7 +8,7 @@
     "purpose": "Property viewing",
     "status": "Scheduled"
   },
-  {
+  Appointment {
     "id": 2,
     "clientId": 1,
     "agentId": 2,
