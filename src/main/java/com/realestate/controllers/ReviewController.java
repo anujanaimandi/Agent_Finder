@@ -250,26 +250,32 @@ public class ReviewController extends HttpServlet {
 
         // Getters and Setters
         public Review getReview() {
+
             return review;
         }
 
         public void setReview(Review review) {
+
             this.review = review;
         }
 
         public User getClient() {
+
             return client;
         }
 
         public void setClient(User client) {
+
             this.client = client;
         }
 
         public Agent getAgent() {
+
             return agent;
         }
 
         public void setAgent(Agent agent) {
+
             this.agent = agent;
         }
     }
