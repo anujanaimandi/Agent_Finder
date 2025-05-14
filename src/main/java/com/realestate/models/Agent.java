@@ -1,5 +1,6 @@
 package com.realestate.models;
 
+
 import java.io.Serializable;
 
 public class Agent implements Serializable {
