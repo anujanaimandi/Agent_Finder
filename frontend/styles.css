@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f8fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 720px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .submit-btn {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    background-color: #e5e7eb;
+    color: #374151;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  /* Header */
+  .main-header {
+    background-color: #3b82f6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main-header h1 {
+    margin: 0;
+  }
+  
+  .main-header nav {
+    margin-top: 10px;
+  }
+  
+  .main-header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .main-header a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Homepage content */
+  .home-content {
+    max-width: 700px;
+    margin: 60px auto;
+    text-align: center;
+  }
+  
+  .home-content h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .home-content p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .submit-btn.large {
+    font-size: 18px;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 6px;
+  }
+  
+  .inquiry-list {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 10px;
+  }
+  
+  .inquiry-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .inquiry-card h3 {
+    margin-top: 0;
+    color: #3b82f6;
+  }
+  
+  .inquiry-card p {
+    margin: 5px 0;
+  }
+  
+  .active {
+    text-decoration: underline;
+  }
+  
+  /* Style for the form group containing the dropdown */
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    appearance: none; /* Removes default browser styling */
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group select:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    background-color: #fff;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Style for the inquiry list container */
+  .list-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #3b82f6;
+    text-align: center;
+  }
+  
+  /* Style for the inquiry cards */
+  .inquiry-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .inquiry-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .inquiry-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .inquiry-card h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #3b82f6;
+  }
+  
+  .inquiry-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .inquiry-card strong {
+    color: #333;
+  }
+  
+  /* Add spacing between the header and the content */
+  main.list-container {
+    margin-top: 20px;
+  }
+  
