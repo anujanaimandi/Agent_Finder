@@ -74,6 +74,7 @@ public class AgentDeleteServlet extends HttpServlet {
                     if (agentId != targetId) {
                         updatedLines.add(line);
                     } else {
+
                         found = true;
                     }
                 } catch (JsonSyntaxException | NullPointerException e) {
